@@ -13,4 +13,9 @@ public class TestController {
 		return "CI/CD GitHub Actions";
 	}
 	
+	@GetMapping("/test2")
+	public String testMessage2() {
+		return "CI/CD GitHub Actions";
+	}
+	
 }
